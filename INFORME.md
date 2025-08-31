@@ -18,3 +18,4 @@
 - xv6 arranca correctamente en QEMU.
 - Probados comandos: `ls`, `echo "Hola xv6"`, `cat README`.
   
+<img width="739" height="1020" alt="Captura de pantalla 2025-08-31 164939" src="https://github.com/user-attachments/assets/cc4a9ecd-bac6-4f0d-9f38-a0eff3679389" />
