@@ -105,3 +105,20 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+uint64
+sys_settickets(void)
+{
+  int n;
+  
+  argint(0, &n);
+  
+  // Asegurar que tenga al menos 1 ticket
+  if(n < 1)
+    n = 1;
+  
+  struct proc *p = myproc();
+  p->tickets = n;
+  
+  return 0;
+}
