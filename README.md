@@ -1,7 +1,7 @@
 # Tarea 2: Lottery Scheduling en XV6
 
 **Grupo:** Grupo A  
-**Integrantes:** Tomas Hernandez, Eugenio Godoy, Jorge Romero
+**Integrantes:** Tomas Hernandez, Eugenio Gigogne, Jorge Romero
 
 ## Descripción General
 
